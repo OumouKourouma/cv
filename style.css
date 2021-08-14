@@ -1,0 +1,90 @@
+body{
+    /*margin-left: 550px;
+    margin-right: 550px;*/
+    /*margin-right: auto;*/
+    margin: auto;
+    width: 800px;
+    /*width: 63%;*/
+    box-shadow: 0px 0px 30px #777;
+    /*border: 1px solid rgb(48, 47, 47);*/
+    /*border: outset;*/
+    background-color: #BFBFBF;
+    /*box-shadow: 3px 3px 3px 3px rgb(54, 53, 52);*/
+}
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#F2F3F5;
+    /*width: 68%;*/
+    width: 800px;
+
+
+}
+#vertical-line
+{
+    border-left: 1px solid #000;
+        display: inline-block;
+        height: 1100px;
+        margin: 0 20px;
+        margin-top: 15px;}
+/*#griser
+{
+   color:BFBFBF; 
+}*/
+.photo img
+{
+    border-radius: 40%;
+}
+.main
+{
+align-items: center;
+}
+.wrapper1
+{
+    text-align: right;
+    padding-left: 60px;
+    padding-top: 18px;
+    /*box-shadow: 10px 5px 5px black;*/
+}
+.wrapper2
+{
+    margin-top: 0px;
+}
+.langue
+{
+    display:none;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: -47px;
+    font-size:45px;
+}
+ul, li
+{
+margin:0;
+padding: 0;
+margin-bottom: -5px;
+margin-top: -10px;
+
+}
+span{
+    opacity: 0;
+}
+em
+{
+    font-size: 18px;
+}
+h1
+{
+  color:#0DC3FA;  
+}
+table
+{
+    border: gray;
+}
+#hobbies
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
